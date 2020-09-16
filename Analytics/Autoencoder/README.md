@@ -14,13 +14,17 @@ Autoencoders consists of 4 main parts:
 
 ![image](https://user-images.githubusercontent.com/61224886/93333921-bb216980-f82c-11ea-9fcd-fb626b64dd6a.png)
 
-# Output 
+# Credit Card Fraud Detection with Autoencoder
+
+The objective of this study is to detect anomalies which is fraud in this case, and the dataset is about credit card transactions that occurred during a period of two days, with 492 frauds out of 284,807 transactions.
+
+The model is trained with nonfraudulent transactions, and learned how to separate different examples (fraudulent cases). Reconstruction error is quite high for fraudulent cases because the model sees these data points for the first time. Since we train the model with just nonfraudulent cases,
+reconstruction error is quite low for nonfraudulent cases.
 
 ![image](https://user-images.githubusercontent.com/61224886/93335740-911d7680-f82f-11ea-8af7-a034cd64f125.png)
 
-The model is trained with nonfraudulent transactions, and learned how to separate different examples (fraudulent cases). 
-Reconstruction error is quite high for the fraudulent cases since the model see these data points for the first time. Since we trained the model with just nonfraudulent cases,
-reconstruction error is quite low for nonfraudulent cases.
+ 
+
 
 
 
